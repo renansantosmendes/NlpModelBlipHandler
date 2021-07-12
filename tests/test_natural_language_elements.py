@@ -1,5 +1,5 @@
 import unittest
-from NlpModelElements import IntentionExample, Intention
+from natural_language_elements import IntentionExample, Intention
 
 
 class TestIntentExample(unittest.TestCase):
