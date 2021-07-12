@@ -1,6 +1,7 @@
 import unittest
 from NlpModelElements import IntentionExample, Intention
 
+
 class TestIntentExample(unittest.TestCase):
     def test_example_len(self):
         string_example = 'Doing a teste'
@@ -11,3 +12,7 @@ class TestIntentExample(unittest.TestCase):
         intention = Intention('IntentTest')
         intention.set_intention_examples(['this is an intention example'])
         self.assertEquals(len(intention), 1)
+        
+if __name__ == '__main__':
+    unittest.main()
+    
